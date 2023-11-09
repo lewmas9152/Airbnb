@@ -58,10 +58,11 @@ nav {
 .card-elements {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 15px;
   max-width: 550px;
   overflow: scroll;
+  position: relative;
 }
 
 .main {
@@ -104,4 +105,13 @@ nav {
 
 .bold {
   font-weight: bold;
+}
+
+.status {
+  position: absolute;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  background-color: white;
+  padding:0 0.5rem;
+  border-radius: 5px;
 }

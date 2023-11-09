@@ -11,13 +11,7 @@ function App() {
       
       <Activities
         key= {item.id}
-        img={item.image}
-        rate={item.rating}
-        review={item.review}
-        country={item.country}
-        title={item.service}
-        price={item.cost}
-        openSpots={item.openSpots}
+        item = {item}
       />
     );
   });
